@@ -1,0 +1,11 @@
+1) What is an advantage to using a text editor? 
+
+    - Text editors speed up coding work by making errors more identifiable and display code in easier to read ways
+
+
+2) Is there an advantage of using a relative vs an absolute URL?
+
+    - There is an advantage to using relative URLs
+        - Easier to read
+        - Offer better page speed
+        - Internal links don't have to be adjusted
