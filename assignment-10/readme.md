@@ -1,17 +1,15 @@
-## Assignment 5
+## Assignment 
 
 ### Contains
 
     - readme.md
     - index.html
         - main page
-        - book summary page
     - css folder
         - empty
     - images folder
         - empty
     - pages folder
-        - author.html
-            - page about the book's author
+        - empty
     - scripts folder
         - empty
