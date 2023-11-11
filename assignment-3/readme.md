@@ -1,1 +1,1 @@
-![Text Editor Screenshot](./assignment-3/textEditorScreenshot.png)
+![Text Editor Screenshot](./blob/main/assignment-3/textEditorScreenshot.png)
