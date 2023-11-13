@@ -20,4 +20,4 @@
 
 ### Github Desktop Screenshot
 
-![Github Desktop Screenshot](./gihubDesktop.png)
+![Github Desktop Screenshot](./images/gihubDesktop.png)
