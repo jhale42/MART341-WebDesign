@@ -5,10 +5,11 @@
     - readme.md
     - index.html
         - main page
+        - recipe
     - css folder
         - empty
     - images folder
-        - empty
+        - example_picture_from_allrecipes.png
     - pages folder
         - empty
     - scripts folder
