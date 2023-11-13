@@ -5,7 +5,9 @@
         <!-- Define the character set used: -->
         <meta charset="utf-8">
 
-        <title></title>
+        <title>
+            
+        </title>
 
         <!-- Provide a description of your page: -->
         <meta name="description" content="">
