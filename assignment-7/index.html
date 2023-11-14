@@ -74,26 +74,13 @@
     
             <img src="./images/techRepairLogo.jpg" width="500" height="347" alt="Tech Repair Shop Logo including slogan" title="Tech Repair Shop Logo">
 
-            <h1>Contact Us</h1>
-
-            <p>
-                Feel free to us an
-                <a href="mailto:TechRepairShop@repair.com">email</a>
-                    or call 406-658-5067 to get a quote or ask a question
-            </p>
-            <address>
-                Tech Repair Shop <br />
-                2940 Highland Drive <br />
-                Missoula, MT 59801 <br />
-            </address>
-
-            <h1>Operating Hours</h1>
+            <h2>Operating Hours</h2>
 
             <p>
                 <table>
                     <tr>
-                        <td>Day</td>
-                        <td>Hours</td>
+                        <td><b>Day</b></td>
+                        <td><b>Hours</b></td>
                     </tr>
                     <tr>
                         <td>Monday</td>
@@ -126,9 +113,67 @@
                 </table>
             </p>
     
+            <h1>Please submit the form below for a quote on a repair:</h1>
     
-    
-    
+            <form action="index.html" method="post" id="quote-form" class="standard-form">
+                <fieldset>
+                    <legend>Quote Form</legend>
+                        <label>Name: <br />
+                            <input type="text" name="customerName" id="custName">
+                        </label>
+                        <br />
+                        <label>Email: <br />
+                            <input type="text" name="customerName" id="custName">
+                        </label>
+                        <br />
+                        <label>Phone Number: <br />
+                            <input type="text" name="customerName" id="custName">
+                        </label>
+                        <br />
+                        <br />
+                        <label>Prefered Contact Method:
+                            <input type="radio" name="customerContactMethod" id="custContact" value="p" /> Phone
+                            <input type="radio" name="customerContactMethod" id="custContact" value="e" /> Email
+                        </label>
+                        <br />
+                        <br />
+                        <label>Device to repair: 
+                            <br />
+                            <br />
+                            <input type="text" name="customerItem" id="custItem">
+                        </label>
+                        <br />
+                        <br />
+                        <label>Services Required: 
+                            <br />
+                            <input type="checkbox" name="service" value="repair" checked/> Hardware Repair
+                            <br />
+                            <input type="checkbox" name="service" value="battery" /> Battery Replacement
+                            <br />
+                            <input type="checkbox" name="service" value="software"/> Software Cleanup i.e. virus removal
+                        </label>
+                        <br />
+                        <br />
+                        <label>
+                            Describe the issue if applicable: <br />
+                            <textarea name="issue" id="custIssue">Enter up to 500 characters...</textarea>
+                        </label>
+                </fieldset>
+            </form>
+            
+            <h2>Contact Us</h2>
+
+            <p>
+                Feel free to us an
+                <a href="mailto:TechRepairShop@repair.com">email</a>
+                 or call 406-658-5067
+            </p>
+            <address>
+                Tech Repair Shop <br />
+                2940 Highland Drive <br />
+                Missoula, MT 59801 <br />
+            </address>
+
     
         </body>
         
