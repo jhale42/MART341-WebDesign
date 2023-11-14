@@ -119,15 +119,15 @@
                 <fieldset>
                     <legend>Quote Form</legend>
                         <label>Name: <br />
-                            <input type="text" name="customerName" id="custName" required>
+                            <input type="text" name="customerName" id="custName" placeholder="John Doe" required>
                         </label>
                         <br />
                         <label>Email: <br />
-                            <input type="text" name="customerName" id="custName" required>
+                            <input type="email" name="customerName" id="custName" placeholder="something@something.something" required>
                         </label>
                         <br />
-                        <label>Phone Number: <br />
-                            <input type="text" name="customerName" id="custName" required>
+                        <label>Phone Number (Please include area code): <br />
+                            <input type="tel" name="customerName" id="custName" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required>
                         </label>
                         <br />
                         <br />
@@ -143,13 +143,15 @@
                         </label>
                         <br />
                         <br />
+
+                        <!-- Wanted to make required but can't do it without JavaScript apparently -->
                         <label>Services Required: 
                             <br />
-                            <input type="checkbox" name="service" value="repair" required/> Hardware Repair
+                            <input type="checkbox" name="service" value="repair"/> Hardware Repair
                             <br />
-                            <input type="checkbox" name="service" value="battery" required/> Battery Replacement
+                            <input type="checkbox" name="service" value="battery"/> Battery Replacement
                             <br />
-                            <input type="checkbox" name="service" value="software" required/> Software Cleanup i.e. virus removal
+                            <input type="checkbox" name="service" value="software"/> Software Cleanup i.e. virus removal
                         </label>
                         <br />
                         <br />
