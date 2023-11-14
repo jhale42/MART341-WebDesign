@@ -16,6 +16,9 @@
         <!-- Provide the author information for the page: -->
         <meta name="author" content="Jennifer Hale">
 
+        <!-- Provide the keyword information for the page: -->
+        <meta name="keywords" content="">
+
         <!-- Provide the viewport information for the page -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
