@@ -32,176 +32,137 @@
 
     <!----- Body Section -------------------------------------------------------------------------------------------------------------------------------------------->
     <body>
+
+        <img src="./images/techRepairLogo.jpg" width="500" height="347" alt="Tech Repair Shop Logo including slogan" title="Tech Repair Shop Logo">
+
+        <!-- Table for hours -->
+        <h2>Operating Hours</h2>
+
+        <p>
+            <table>
+                <tr>
+                    <td><b>Day</b></td>
+                    <td><b>Hours</b></td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>9:00am - 6:30pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>9:00am - 6:30pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>9:00am - 6:30pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>9:00am - 6:30pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>9:00am - 7:00pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>9:00am - 6:00pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>9:00am - 6:00pm</td>
+                </tr>  
+            </table>
+        </p>
         
+        <!-- Fieldset with a legend for form to be submitted -->
+        <h1>Please submit the form below for a quote on a repair:</h1>
+
+        <form action="index.html" method="post" id="quote-form" class="standard-form">
+            <fieldset>
+                <legend>Quote Form</legend>
+
+                    <!-- Customer Name -->
+                    <label>Name: <br />
+                        <input type="text" name="customerName" id="custName" placeholder="John Doe" required>
+                    </label>
+                    <br />
+                    
+                    <!-- Customer Name -->
+                    <label>Email: <br />
+                        <input type="email" name="customerName" id="custName" placeholder="something@something.something" required>
+                    </label>
+                    <br />
+                    
+                    <!-- Customer Phone Number -->
+                    <label>Phone Number (Please include area code): <br />
+                        <input type="tel" name="customerName" id="custName" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required>
+                    </label>
+                    <br />
+                    <br />
+                    
+                    <!-- Customer Email -->
+                    <label>Prefered Contact Method:
+                        <input type="radio" name="customerContactMethod" id="custContact" value="p" required/> Phone
+                        <input type="radio" name="customerContactMethod" id="custContact" value="e" checked required/> Email
+                    </label>
+                    <br />
+                    <br />
+                    
+                    <!-- Customer Device -->
+                    <label>Device to repair (Please include model number and serial number if possible): 
+                        <br />
+                        <input type="text" name="customerItem" id="custItem" size="100" required>
+                    </label>
+                    <br />
+                    <br />
+                    
+                    <!-- Customer Services -->
+                    <!-- Wanted to make required but can't do it without JavaScript apparently -->
+                    <label>Services Required: 
+                        <br />
+                        <input type="checkbox" name="service" value="repair"/> Hardware Repair
+                        <br />
+                        <input type="checkbox" name="service" value="battery"/> Battery Replacement
+                        <br />
+                        <input type="checkbox" name="service" value="software"/> Software Cleanup i.e. virus removal
+                    </label>
+                    <br />
+                    <br />
+                    
+                    <!-- Customer Description -->
+                    <label>
+                        Describe the issue if applicable: <br />
+                        <textarea name="issue" id="custIssue" cols="150" rows="5" maxlength="1000">Enter up to 1000 characters...</textarea>
+                    </label>
+                    <br />
+                    <br />
+                    
+                    <!-- Customer Subscribe -->
+                    <label>Subscribe to our newsletter:
+                        <input type="radio" name="customerSubscribe" id="custSub" value="y" checked required/> Yes
+                        <input type="radio" name="customerSubscribe" id="custSub" value="n" required/> No
+                    </label>
+                    <br />
+                    <br />
+                    
+                    <!-- Submit Button -->
+                    <input type="submit" name="send" value="Send Form"/>
+            </fieldset>
+        </form>
+
+        <!-- Contact Information Section -->
+        <h2>Contact Us</h2>
+
+        <p>
+            Feel free to us an
+            <a href="mailto:TechRepairShop@repair.com">email</a>
+                or call 406-658-5067
+        </p>
+        <address>
+            Tech Repair Shop <br />
+            2940 Highland Drive <br />
+            Missoula, MT 59801 <br />
+        </address>
     </body>
-    
-    <!DOCTYPE html>
-    <html lang="en-US">
-    
-        <!----- Head Section -------------------------------------------------------------------------------------------------------------------------------------------->
-        <head>
-            <title>
-                Tech Repair
-            </title>
-    
-            <!-- Define the character set used: -->
-            <meta charset="utf-8">
-    
-            <!-- Provide a description of your page: -->
-            <meta name="description" content="Web page for tech repair business">
-    
-            <!-- Provide the author information for the page: -->
-            <meta name="author" content="Jennifer Hale">
-    
-            <!-- Provide the viewport information for the page -->
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-            <!-- Provide style definitions without linking external docs -->
-            <style>
-                body {background-color: snow}
-                h1 {color: black}
-    
-                table {
-                    border-collapse: 1px solid black;
-                }
-    
-            </style>
-    
-        </head>
-    
-        <!----- Body Section -------------------------------------------------------------------------------------------------------------------------------------------->
-        <body>
-    
-            <img src="./images/techRepairLogo.jpg" width="500" height="347" alt="Tech Repair Shop Logo including slogan" title="Tech Repair Shop Logo">
-
-            <!-- Table for hours -->
-            <h2>Operating Hours</h2>
-
-            <p>
-                <table>
-                    <tr>
-                        <td><b>Day</b></td>
-                        <td><b>Hours</b></td>
-                    </tr>
-                    <tr>
-                        <td>Monday</td>
-                        <td>9:00am - 6:30pm</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>9:00am - 6:30pm</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>9:00am - 6:30pm</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>9:00am - 6:30pm</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td>
-                        <td>9:00am - 7:00pm</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>9:00am - 6:00pm</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>9:00am - 6:00pm</td>
-                    </tr>  
-                </table>
-            </p>
-            
-            <!-- Fieldset with a legend for form to be submitted -->
-            <h1>Please submit the form below for a quote on a repair:</h1>
-    
-            <form action="index.html" method="post" id="quote-form" class="standard-form">
-                <fieldset>
-                    <legend>Quote Form</legend>
-
-                        <!-- Customer Name -->
-                        <label>Name: <br />
-                            <input type="text" name="customerName" id="custName" placeholder="John Doe" required>
-                        </label>
-                        <br />
-                        
-                        <!-- Customer Name -->
-                        <label>Email: <br />
-                            <input type="email" name="customerName" id="custName" placeholder="something@something.something" required>
-                        </label>
-                        <br />
-                        
-                        <!-- Customer Phone Number -->
-                        <label>Phone Number (Please include area code): <br />
-                            <input type="tel" name="customerName" id="custName" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required>
-                        </label>
-                        <br />
-                        <br />
-                        
-                        <!-- Customer Email -->
-                        <label>Prefered Contact Method:
-                            <input type="radio" name="customerContactMethod" id="custContact" value="p" required/> Phone
-                            <input type="radio" name="customerContactMethod" id="custContact" value="e" checked required/> Email
-                        </label>
-                        <br />
-                        <br />
-                        
-                        <!-- Customer Device -->
-                        <label>Device to repair (Please include model number and serial number if possible): 
-                            <br />
-                            <input type="text" name="customerItem" id="custItem" size="100" required>
-                        </label>
-                        <br />
-                        <br />
-                        
-                        <!-- Customer Services -->
-                        <!-- Wanted to make required but can't do it without JavaScript apparently -->
-                        <label>Services Required: 
-                            <br />
-                            <input type="checkbox" name="service" value="repair"/> Hardware Repair
-                            <br />
-                            <input type="checkbox" name="service" value="battery"/> Battery Replacement
-                            <br />
-                            <input type="checkbox" name="service" value="software"/> Software Cleanup i.e. virus removal
-                        </label>
-                        <br />
-                        <br />
-                        
-                        <!-- Customer Description -->
-                        <label>
-                            Describe the issue if applicable: <br />
-                            <textarea name="issue" id="custIssue" cols="150" rows="5" maxlength="1000">Enter up to 1000 characters...</textarea>
-                        </label>
-                        <br />
-                        <br />
-                        
-                        <!-- Customer Subscribe -->
-                        <label>Subscribe to our newsletter:
-                            <input type="radio" name="customerSubscribe" id="custSub" value="y" checked required/> Yes
-                            <input type="radio" name="customerSubscribe" id="custSub" value="n" required/> No
-                        </label>
-                        <br />
-                        <br />
-                        
-                        <!-- Submit Button -->
-                        <input type="submit" name="send" value="Send Form"/>
-                </fieldset>
-            </form>
-
-            <!-- Contact Information Section -->
-            <h2>Contact Us</h2>
-
-            <p>
-                Feel free to us an
-                <a href="mailto:TechRepairShop@repair.com">email</a>
-                 or call 406-658-5067
-            </p>
-            <address>
-                Tech Repair Shop <br />
-                2940 Highland Drive <br />
-                Missoula, MT 59801 <br />
-            </address>
-        </body>
-    </html>
+</html>
