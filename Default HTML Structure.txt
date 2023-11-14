@@ -3,10 +3,7 @@
 
     <!----- Head Section -------------------------------------------------------------------------------------------------------------------------------------------->
     <head>
-        <title>
-            
-        </title>
-
+        
         <!-- Define the character set used: -->
         <meta charset="utf-8">
 
@@ -24,6 +21,8 @@
 
         <!-- Provide information on other resources the page needs to load -->
         <link rel="stylesheet" href="./css/style.css">
+
+        <title></title>
 
         <!-- Provide style definitions without linking external docs -->
         <style>
