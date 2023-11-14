@@ -119,43 +119,43 @@
                 <fieldset>
                     <legend>Quote Form</legend>
                         <label>Name: <br />
-                            <input type="text" name="customerName" id="custName">
+                            <input type="text" name="customerName" id="custName" required>
                         </label>
                         <br />
                         <label>Email: <br />
-                            <input type="text" name="customerName" id="custName">
+                            <input type="text" name="customerName" id="custName" required>
                         </label>
                         <br />
                         <label>Phone Number: <br />
-                            <input type="text" name="customerName" id="custName">
+                            <input type="text" name="customerName" id="custName" required>
                         </label>
                         <br />
                         <br />
                         <label>Prefered Contact Method:
-                            <input type="radio" name="customerContactMethod" id="custContact" value="p" /> Phone
-                            <input type="radio" name="customerContactMethod" id="custContact" value="e" /> Email
+                            <input type="radio" name="customerContactMethod" id="custContact" value="p" required/> Phone
+                            <input type="radio" name="customerContactMethod" id="custContact" value="e" checked required/> Email
                         </label>
                         <br />
                         <br />
                         <label>Device to repair (Please include model number and serial number if possible): 
                             <br />
-                            <input type="text" name="customerItem" id="custItem" size="20">
+                            <input type="text" name="customerItem" id="custItem" size="100" required>
                         </label>
                         <br />
                         <br />
                         <label>Services Required: 
                             <br />
-                            <input type="checkbox" name="service" value="repair" checked/> Hardware Repair
+                            <input type="checkbox" name="service" value="repair" required/> Hardware Repair
                             <br />
-                            <input type="checkbox" name="service" value="battery" /> Battery Replacement
+                            <input type="checkbox" name="service" value="battery" required/> Battery Replacement
                             <br />
-                            <input type="checkbox" name="service" value="software"/> Software Cleanup i.e. virus removal
+                            <input type="checkbox" name="service" value="software" required/> Software Cleanup i.e. virus removal
                         </label>
                         <br />
                         <br />
                         <label>
                             Describe the issue if applicable: <br />
-                            <textarea name="issue" id="custIssue" cols="20" rows="5" maxlength="1000">Enter up to 1000 characters...</textarea>
+                            <textarea name="issue" id="custIssue" cols="150" rows="5" maxlength="1000">Enter up to 1000 characters...</textarea>
                         </label>
                 </fieldset>
             </form>
