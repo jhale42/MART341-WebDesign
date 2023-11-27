@@ -6,7 +6,7 @@
     - index.html
         - main page
     - css folder
-        - styles.css
+        - style.css
     - images folder
         - cyberpunk.png
         - mass_effect.jpg

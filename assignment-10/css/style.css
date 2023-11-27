@@ -1,0 +1,49 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.main_containter {
+    border-style: double;
+    border-width: 5px;
+    border-color: #56E39F;
+    background-color: #4464AD;
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+}
+
+.game_container {
+    margin: auto;
+    padding: auto;
+    display: inline-block;
+}
+
+.img_container {
+    border-bottom: 1px white solid;
+    border-spacing: 50px;
+}
+
+div.align{
+    text-align: center;
+}
+
+img {
+    padding: auto;
+    height: 400px;
+}
+
+p {
+    color: white;
+    font-size: medium;
+}
+
+#mainheader{
+    text-align: left;
+    position: relative;
+    left: 30px;
+    top: 4px;
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 3%;
+}
