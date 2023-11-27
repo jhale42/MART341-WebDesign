@@ -5,11 +5,13 @@
     - readme.md
     - index.html
         - main page
-        - tavel instructable
+        - travel instructable
     - css folder
         - empty
     - images folder
-        - empty
+        - packing.jpg
+        - plane.jpg
+        - planner.jpg
     - pages folder
         - about.html
         - contact.html
