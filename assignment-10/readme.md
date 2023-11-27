@@ -6,9 +6,10 @@
     - index.html
         - main page
     - css folder
-        - empty
+        - styles.css
     - images folder
-        - empty
+        - cyberpunk.png
+        - mass_effect.jpg
     - pages folder
         - empty
     - scripts folder

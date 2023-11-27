@@ -1,0 +1,19 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.parent_containter {
+    border-style: double;
+    border-width: 5px;
+    border-color: #56E39F;
+    background-color: #4464AD;
+    width: 85%;
+    margin: auto;
+}
+
+.game_container{
+    float: left;
+    width: 50%;
+    border-bottom: 1px black solid;
+    border-spacing: inherit;
+}
