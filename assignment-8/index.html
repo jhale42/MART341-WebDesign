@@ -26,9 +26,9 @@
 
         <!-- Provide style definitions without linking external docs -->
         <style>
+
             body {
                 background-image: url("images/album_artwork.jpg");
-                background-repeat: no-repeat;
                 background-size: 100%;
                 text-align: center;
             }
@@ -43,7 +43,6 @@
                 background-color: rgba(0, 0, 0, 0.5);
                 color: white;
                 margin-top: 10px;
-                margin-bottom: 10px;
                 padding: 20px;
             }
 
@@ -58,11 +57,13 @@
             .lyrics {    
                 background-color: rgba(0, 0, 0, 0.5);
                 color: white;
+                margin-top: 10px;
                 font-size: small;
-                width: 600;
-                margin: auto;
-                padding: 50px;
                 display: inline-block;
+            }
+
+            .first_line {
+                font-style: italic;
             }
 
         </style>
@@ -72,33 +73,43 @@
     <!----- Body Section -------------------------------------------------------------------------------------------------------------------------------------------->
     <body>
 
-            <!-- Art for album and song -->
-            <div id="art" class="art_parent">
-                <h1>Take Me Back to Eden</h1>
-                <h2>Sleep Token</h2>
-                <span id="album_art" class="child">
-                    <img src="images/album_artwork.jpg" height="320" width="320" alt="Take Me Back to Eden Album Art">
-                    <h3>Album Artwork</h3>
-                </span>
-                <div id="song_art" class="child">
-                    <img src="images/tmbte_art.png" height="320" width="320" alt="Take Me Back to Eden Song Art">
-                    <h3>Song Artwork</h3>
-                </div>
+        <!-- Art for album and song -->
+        <div id="art" class="art_parent">
+            <h1>Take Me Back to Eden</h1>
+            <h2>Sleep Token</h2>
+            <div id="album_art" class="child">
+                <img src="images/album_artwork.jpg" height="320" width="320" alt="Take Me Back to Eden Album Art">
+                <h3>Album Artwork</h3>
             </div>
-
-            <!-- Video and Audio -->
-            <div id="media" class="media_parent">
-                <div id="song" class="child">
-                    <h2>Song</h2>
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Gt7fjNlx901pPRkvBiNBZ?utm_source=generator&theme=0" width="100%" height="360" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
-                <div id="music_video" class="child">
-                    <h2>Music Video</h2>
-                    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/vFHBOKa_ZG0?si=ltM2nag4pQnmSTAh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
+            <div id="song_art" class="child">
+                <img src="images/tmbte_art.png" height="320" width="320" alt="Take Me Back to Eden Song Art">
+                <h3>Song Artwork</h3>
             </div>
+        </div>
 
-        
+        <!-- Video and Audio -->
+        <div id="media" class="media_parent">
+            <div id="song" class="child">
+                <h2>Song</h2>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Gt7fjNlx901pPRkvBiNBZ?utm_source=generator&theme=0" width="100%" height="360" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div id="music_video" class="child">
+                <h2>Music Video</h2>
+                <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/vFHBOKa_ZG0?si=ltM2nag4pQnmSTAh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="lyrics" class="lyrics">
+            <h1>Lyrics</h1>
+            <span id="album_art" class="child">
+                <img src="images/album_artwork.jpg" height="320" width="320" alt="Take Me Back to Eden Album Art">
+                <h3>Album Artwork</h3>
+            </span>
+            <div id="song_art" class="child">
+                <img src="images/tmbte_art.png" height="320" width="320" alt="Take Me Back to Eden Song Art">
+                <h3>Song Artwork</h3>
+            </div>
+        </div>
 
     </body>
     
