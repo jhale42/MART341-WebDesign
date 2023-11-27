@@ -9,3 +9,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Contact Page</title>
+
+        <!-- Provide style definitions without linking external docs -->
+        <style>
+                    
+            body {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+
+            div {
+                background-color: rgb(190, 255, 104);
+                border: 1px black solid;
+            }
+
+            h1 {color: black}
+
+        </style>
+
+    </head>
+
+    <!----- Body Section -------------------------------------------------------------------------------------------------------------------------------------------->
+    <body>
+        <div>
+            <form action="index.html" method="post" id="contact-form" class="standard-form">
+                <fieldset>
+                    <legend>contact Form</legend>
+
+                        <!-- Customer Name -->
+                        <label>Name: <br />
+                            <input type="text" name="customerName" id="custName" placeholder="John Doe" required>
+                        </label>
+                        <br />
+                        
+                        <!-- Customer Name -->
+                        <label>Email: <br />
+                            <input type="email" name="customerName" id="custName" placeholder="something@something.something" required>
+                        </label>
+                        <br />
+                        
+                        <!-- Customer Phone Number -->
+                        <label>Phone Number (Please include area code): <br />
+                            <input type="tel" name="customerName" id="custName" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required>
+                        </label>
+                        <br />
+                        <br />
+                        
+                        <!-- Submit Button -->
+                        <input type="submit" name="send" value="Send Form"/>
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+    
+</html>
