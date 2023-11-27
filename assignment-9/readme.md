@@ -5,11 +5,13 @@
     - readme.md
     - index.html
         - main page
+        - tavel instructable
     - css folder
         - empty
     - images folder
         - empty
     - pages folder
-        - empty
+        - about.html
+        - contact.html
     - scripts folder
         - empty
