@@ -2,6 +2,14 @@ p {
     text-indent: 2em;
 }
 
+form {
+    padding: 2em;
+}
+
 .content {
+    padding: 2em;
+}
+
+.logo {
     padding: 2em;
 }
