@@ -1,8 +1,31 @@
 .main-head{
     font-family: Silkscreen;
-    font-size: 85px;
+    font-size: 450%;
     color:black;
     background-color: yellow;
     height: 120px;
     text-align: center;
+}
+
+div{
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    margin: 10px;
+}
+
+img {
+    padding: auto;
+}
+
+#algorithm {
+    font-weight: 500;
+}
+
+#algorithm:hover {
+    background: url("../images/Ray_trace_diagram.jpg");
+    float: left;
+    display: block;
+    width: 1200;
+    height: 800;
 }

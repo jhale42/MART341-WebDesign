@@ -38,44 +38,41 @@
                 ray tracing-based rendering techniques are generally slower and higher fidelity than traditional methods. Thus, ray tracing was first deployed in 
                 applications where taking a relatively long time to render could be tolerated, such as still CGI images, and film and television visual effects (VFX), 
                 but was less suited to real-time applications such as video games, where speed is critical in rendering each frame.
-
             </p>
             <p>
-
                 Since 2019, however, hardware acceleration for real-time ray tracing has become standard on new commercial graphics cards, and graphics APIs have followed 
                 suit, allowing developers to use hybrid ray tracing and rasterization-based rendering in games and other real-time applications with a lesser hit to frame 
-                render times.
-
+                render times. <span id="algorithm">Here is an image of what that looks like.</span>
             </p>
             <p>
-
                 Ray tracing is capable of simulating a variety of optical effects, such as reflection, refraction, soft shadows, scattering, depth of field, motion blur, 
                 caustics, ambient occlusion and dispersion phenomena (such as chromatic aberration). It can also be used to trace the path of sound waves in a similar fashion 
                 to light waves, making it a viable option for more immersive sound design in video games by rendering realistic reverberation and echoes. In fact, any physical 
                 wave or particle phenomenon with approximately linear motion can be simulated with ray tracing.
-
             </p>
             <p>
-
                 The idea behind ray casting, the predecessor to recursive ray tracing, is to trace rays from the eye, one per pixel, and find the closest object blocking the 
                 path of that ray. Using the material properties and the effect of the lights in the scene, this algorithm can determine the shading of this object. The simplifying 
                 assumption is made that if a surface faces a light, the light will reach that surface and not be blocked or in shadow. The shading of the surface is computed using 
                 traditional 3-D computer graphics shading models. One important advantage ray casting offered over older scanline algorithms was its ability to easily deal with 
                 non-planar surfaces and solids, such as cones and spheres. If a mathematical surface can be intersected by a ray, it can be rendered using ray casting. Elaborate 
                 objects can be created by using solid modeling techniques and easily rendered.
-
             </p>
+        </div>
+        <div>
             <p>
+                <span id="algorithm">Here is an image of what that looks like.</span>
                 When a ray hits a surface, additional rays may be cast because of reflection, refraction, and shadow.
+                
             </p>
             <ul>
-                <li>A reflection ray is traced in the mirror-reflection direction. The closest object it intersects is what will be seen in the reflection.</li>
-                <li>A refraction ray traveling through transparent material works similarly, with the addition that a refractive ray could be entering or exiting a material.
-                    Turner Whitted extended the mathematical logic for rays passing through a transparent solid to include the effects of refraction.</li>
-                <li>A shadow ray is traced toward each light. If any opaque object is found between the surface and the light, the surface is in shadow and the 
-                    light does not illuminate it.</li>
+                <li><p>A reflection ray is traced in the mirror-reflection direction. The closest object it intersects is what will be seen in the reflection.</p></li>
+                <li><p>A refraction ray traveling through transparent material works similarly, with the addition that a refractive ray could be entering or exiting a material.
+                    Turner Whitted extended the mathematical logic for rays passing through a transparent solid to include the effects of refraction.</p></li>
+                <li><p>A shadow ray is traced toward each light. If any opaque object is found between the surface and the light, the surface is in shadow and the 
+                    light does not illuminate it.</p></li>
             </ul>
-            <p>These recursive rays add more realism to ray traced images.</p>
+            <p>These recursive rays add more realism to ray traced images.<span id="algorithm">Here is an image of what that looks like.</span></p>
         </div>
     </body>
     
