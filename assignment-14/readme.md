@@ -6,10 +6,14 @@
     - index.html
         - main page
     - css folder
-        - empty
+        - bulma.css
+        - style.css
     - images folder
-        - empty
+        - fountains.jpg
+        - Arthur_C._Clarke_1965.jpg
     - pages folder
-        - empty
+        - author.html
+        - contact.html
     - scripts folder
-        - empty
+        - main.js
+        - draw logo
