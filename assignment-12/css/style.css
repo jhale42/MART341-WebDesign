@@ -60,13 +60,11 @@ header {
     position: absolute;
     margin-top: 0.85em;
     width: 9em;
-    color: #000;
-    background-color: #fff;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #000;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -114,4 +112,25 @@ header {
     font-size: x-large;
     text-indent: 1.5em;
     overflow: scroll;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4464AD;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 1em;
+}
+
+.top a {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.top:hover {
+    background-color: #a2a2a2;
 }
