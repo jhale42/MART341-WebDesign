@@ -87,3 +87,31 @@ header {
     color: white;
     background-color: #a2a2a2;
 }
+
+.genre-content {
+    background-color: #7CB4B8;
+    border: 2px solid black;
+    text-align: left;
+    margin: 3em;
+    padding: auto;
+}
+
+.genre-image {
+    float: left;
+    width: 480px;
+    height: 270px;
+    margin: 5em 2em;
+}
+
+.genre-text {
+    display: inline-block;
+    background-color: #4464AD;
+    border-radius: 20px;
+    height: 400px;
+    max-width: 55%;
+    margin: auto;
+    padding: 1em;
+    font-size: x-large;
+    text-indent: 1.5em;
+    overflow: scroll;
+}
