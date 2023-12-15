@@ -1,0 +1,136 @@
+body {background-color: snow}
+h1 {color: black}
+
+header {
+    background-color: #4464AD;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    height: 3.5em;
+    width: 100%;
+}
+
+.header-item {
+    display: inline-block;
+    margin: 0.5em 1.5em;
+    height: 2em;
+    min-width: 8em;
+    text-align: center;
+    background-color: #DAB785;
+    padding-top: 0.5em;
+    padding-bottom: -0.5em;
+}
+
+.header-item a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    vertical-align: bottom;
+}
+
+.header-item:hover {
+    background-color: #CAFE48;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 0.5em 1.5em;
+    height: 2em;
+    min-width: 8em;
+    text-align: center;
+    background-color: #DAB785;
+    padding-top: 0.5em;
+    padding-bottom: -0.5em;
+}
+
+.dropdown a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    vertical-align: bottom;
+}
+
+.dropdown:hover {
+    background-color: #CAFE48;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 0.85em;
+    width: 9em;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #7CB4B8;
+}
+
+.dropdown-item {
+    display: block;
+    border: 2px solid black;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: #a2a2a2;
+}
+
+.genre-content {
+    background-color: #7CB4B8;
+    border: 2px solid black;
+    text-align: left;
+    margin: 3em;
+    padding: auto;
+}
+
+.genre-image {
+    float: left;
+    width: 480px;
+    height: 270px;
+    margin: 5em 2em;
+}
+
+.genre-text {
+    display: inline-block;
+    background-color: #4464AD;
+    border-radius: 20px;
+    height: 400px;
+    max-width: 55%;
+    margin: auto;
+    padding: 1em;
+    font-size: x-large;
+    text-indent: 1.5em;
+    overflow: scroll;
+}
+
+.top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4464AD;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 1em;
+}
+
+.top a {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.top:hover {
+    background-color: #a2a2a2;
+}

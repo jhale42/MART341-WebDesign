@@ -4,7 +4,7 @@
 
     - readme.md
     - OFL.txt
-        -font license
+        - font license
     - index.html
         - main page
         - ray tracing page

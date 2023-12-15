@@ -3,12 +3,18 @@
 ### Contains
 
     - readme.md
+    - OFL.txt
+        - font license
     - index.html
         - main page
+        - game genres
     - css folder
-        - empty
+        - fonts.css
+        - style.css
     - images folder
-        - empty
+        - fps.jpg
+        - rpg.jpg
+        - strategy.jpg
     - pages folder
         - empty
     - scripts folder

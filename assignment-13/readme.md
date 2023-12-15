@@ -3,10 +3,13 @@
 ### Contains
 
     - readme.md
+    - OFL.txt
+        -font license
     - index.html
         - main page
     - css folder
-        - empty
+        - fonts.css
+        - style.css
     - images folder
         - empty
     - pages folder
